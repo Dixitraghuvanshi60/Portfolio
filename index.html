@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presnol Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/745c8383e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+   <div id="header">
+    
+        <div class="container">
+            
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span> Dixit Raghuvanshi</span><br> from India</h1>
+            </div>
+        </div>
+   </div>
+<!-- -----------------About--------------------- -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am an organised, efficient and hard working person. I am willing to discover and accept new ideas which can be put into practice effectively. I am a good listener and learner, able to communicate well with a group and on an individual level. I am able to motivate and direct my talent and skills to meet objectives.</p>
+
+                    <div class="tab-titles">
+                        <p class="links active" onclick="opentab('skills')">Skills</p>
+                        <p class="links" onclick="opentab('experience')">Tools</p>
+                        <p class="links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="contants skills" id="skills">
+                        <ul>
+                            
+                            
+                            <li><span>Web Development</span><br>Full Stack Web Development using  HTML, CSS, Javascript, React.js, Node.js or python.</li>
+                            <li><span>JAVA, C</span><br>Knowledge about basics concepts of these languages.</li>
+                            <li><span>Build and Development</span><br>Vite.</li>
+                            <li><span>Computer Science</span><br>DBMS, OOPS.</li>
+                            <li><span>Soft Skill</span><br>Communication, Teamwork, Time Management, Leadership.</li>
+                        </ul>
+                    </div>
+
+                     <div class="contants" id="experience">
+                        <ul>
+                            <li><span>VS code</span><br>VS Code is generally faster and uses less memory than Atom. It's also better for smart suggestions (IntelliSense) and fixing errors (debugging).</li>
+                            <li><span>Git & Github</span><br>Git & Github is a Develops tool used for source code management.</li>
+                            <li><span>Figma</span><br>To Create and manage design systems with reusable components and styles.</li>      
+                        </ul>
+                    </div> 
+
+                    <div class="contants" id="education">
+                        <ul>
+                            <li><span>B.tech(CSE)</span><br>Bagwant Institute of Technology(2022-2026) with 1<sup>st </sup> division</li>
+                            <li><span>Intermediate</span><br>Smt. Shimla Rani Inter College(2021-2022) U.P Board with 1<sup>st </sup> division</li>
+                            <li><span>Secondary School</span><br>SKS International Gurukul(2019-2020) CBSE Board with 1<sup>st </sup> division</li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+   </div>
+
+   <!-- -------------------services--------------- -->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p><li>Frontend   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  HTML, CSS, Javascript</li>
+                    <li>Framework &nbsp;: React.js</li>
+                   <li>Backend &nbsp;&nbsp;&nbsp; &nbsp;: Python or Node.js</li></p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+             </div>
+
+             <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>UI/UX desingn</h2>
+                <p><h3><li>Figma :</li></h3>
+                It is a web-based design tool that allows users to create,share and test designs for website, mobile aaps and other digital product.</p>
+                <a href="https://www.figma.com/">Learn more</a>
+
+             </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- --------------------------portfolio----------------- -->
+
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="e commerse.jpg" >
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>using HTML,CSS and Javascript.</p>
+                            <a href="https://e-commercewebsiteee.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                <div class="work">
+                    <img src="work2.png" >
+                    <div class="layer">
+                        <h3>Rock, Paper, Scissors game</h3>
+                        <p> using HTML,CSS and Javascript.</p>
+                            <a href="https://gameeeeee.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work3.png" >
+                    <div class="layer">
+                        <h3>Currency Converter</h3>
+                        <p> using HTML, CSS, Javascript.</p>
+                            <a href="https://curencyconveter.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work1.png" >
+                    <div class="layer">
+                        <h3>Amazone Clone</h3>
+                        <p>using HTML and CSS. </p>
+                            <a href="https://amazoncloneeeeeee.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            
+                <div class="work">
+                    <img src="calculator-2374442_1280.webp" >
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>using HTML,CSS and Javascript.</p>
+                            <a href="https://calculatorrrrrrrrrr.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+           
+            </div>
+            
+        </div>
+   </div>
+
+   <!-- ----------------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> dixitraghuvanshi60@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 8265874374</p>
+                    <div class="social-icons">
+                        <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fdixit-raghuvanshi-185b08257%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app%26fbclid%3DPAZXh0bgNhZW0CMTEAAaaAwYDC7xvZ6ugqRWJ4PmwZka7jnGQ1TH3IMpTdsR_0MkUw2GkOtpAKacg_aem_YDPI2Roj-vxi_oxKXoM3Ew&e=AT0ltxYeHC67W_kL9oA2XQCzajuFcy8YVURAQ2OJh_Q9iKtp3Pqtb1nGxnbdaBPBqXhdIZ_08nUOFIz7cbHp_zFmnEBlNlX_-B7Q4GA"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Dixitraghuvanshi60"><i class="fa-brands fa-square-github"></i></a>
+
+                        <a href="https://www.facebook.com/share/Yq71wdk1wfsYGSSt/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/DixitRaghu60?s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/dixit_raghuvanshi_60/profilecard/?igsh=bWlvdDI2NG5hZGJy"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <h4>Name : <span>Dixit Raghuvanshi</span></h4>
+                    <h4>Father's Name :<span> Sanjeev Raghuvanshi</span></h4>
+                    <h4>Massage : <span>Aim to be associated with a progressive organization which offers an excellent atmosphere to prove myself by utilizing all techincal Knowledge into practice and profit myself with experience and valueable Knowledge of Development and growth of organization.</span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @dixit , Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+   <script>
+
+    var links = document.getElementsByClassName("links");
+    var contants = document.getElementsByClassName("contants");
+
+    function opentab(tabname){
+        for(link of links){
+            link.classList.remove("active");
+        }
+        for(contant of contants){
+            contant.classList.remove("skills");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("skills");
+    }
+
+
+   </script>
+
+   <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+   </script>
+
+
+</body>
+</html>
